@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #2b2b2b;
+  color: #ffffff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 30px 10px;
+}
+
+.card {
+  background: #3c3c3c;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 350px;
+  width: 100%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.name {
+  color: #d946ef;
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.title {
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+#themeToggle {
+  display: block;
+  margin: 20px auto;
+  background-color: #d946ef;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profile-pic {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 10px auto;
+  border: 3px solid #d946ef;
+}
+
+.section {
+  background: #f3f4f6;
+  color: #111;
+  padding: 10px;
+  margin: 12px 0;
+  border-left: 5px solid #d946ef;
+  border-radius: 6px;
+}
+
+.section h2 {
+  background: #d946ef;
+  color: white;
+  padding: 6px;
+  border-radius: 3px;
+  margin-top: 0;
+}
+
+ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.links {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.links a {
+  color: #d946ef;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Light Theme */
+body.light {
+  background-color: #111;
+  color: #111;
+}
+
+body.light .card {
+  background: white;
+}
+
+body.light .section {
+  background: #e5e7eb;
+  color: #111;
+}
+
+body.light .name {
+  color: #7c3aed;
+}
+
+body.light #themeToggle {
+  background-color: #7c3aed;
+}
+
+body.light .profile-pic {
+  border-color: #7c3aed;
+}
+
+body.light .section h2 {
+  background: #7c3aed;
+}
+ #skillsList{
+  display: none;
+ }
+#toggleSkills {
+  display: block;
+  margin: 10px auto;
+  background-color: #d946ef;
+  color: white;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+body.light #toggleSkills {
+  background-color: #7c3aed;
+  color: white;
+}
+body.light .links a {
+  color: #7c3aed;
+}
+
+
